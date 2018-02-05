@@ -2,8 +2,8 @@
 
 :octocat: Quick guide on creating Material Design Sliding Tab
 
-Image
------
+Images
+------
 
 <img src="Images/taba.png" alt="phone image" width="200px" />
 <img src="Images/tabb.png" alt="phone image" width="200px" />

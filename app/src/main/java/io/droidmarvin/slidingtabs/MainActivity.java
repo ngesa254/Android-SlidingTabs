@@ -84,7 +84,7 @@ public class MainActivity extends AppCompatActivity implements MaterialTabListen
 
         @Override
         public int getCount() {
-            return 8;
+            return 4;
         }
 
         @Override

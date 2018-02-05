@@ -25,12 +25,12 @@ public class MainActivity extends AppCompatActivity implements MaterialTabListen
         setContentView(R.layout.activity_main);
 
         //android toolbar
-        toolBar = (android.support.v7.widget.Toolbar) this.findViewById(R.id.toolBar);
+        toolBar =  this.findViewById(R.id.toolBar);
         this.setSupportActionBar(toolBar);
 
         //tab host
-        tabHost = (MaterialTabHost) this.findViewById(R.id.tabHost);
-        viewPager = (ViewPager) this.findViewById(R.id.viewPager);
+        tabHost =  this.findViewById(R.id.tabHost);
+        viewPager = this.findViewById(R.id.viewPager);
 
         //adapter view
         androidAdapter = new ViewPagerAdapter(getSupportFragmentManager());
